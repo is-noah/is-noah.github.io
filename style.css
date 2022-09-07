@@ -35,3 +35,14 @@ main{
     justify-content: flex-end;
    
 }
+#Skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fafafa;
+    min-height: 100vh;
+    background: #202020;
+    padding-top: 4.5rem; /*When navbar is Fixed use this padding*/
+    padding: 30px;
+}
