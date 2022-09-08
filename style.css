@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 1;
     height: 200px;
+    margin-top: 0.5px;
 }
 /*Style in Home Page */
 main{
@@ -42,10 +43,11 @@ main{
     flex-direction: column;
     color: #fafafa;
     min-height: 100vh;
-    background: #202020;
+    background-color: #191b1f;
     padding-top: 4.5rem; /*When navbar is Fixed use this padding*/
     padding: 30px;
 }
-.container-nav{
-    margin-top: 5px;
+
+#card{
+    background-color: #1e242b;
 }
