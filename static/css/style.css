@@ -94,7 +94,30 @@ nav {
   transition: ease-in-out 0.5s;
   text-shadow: 0 0 0.65px, 0 0 0.65px;
 }
+
+.go_skills {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 30px;
+  z-index: 1;
+  margin-top: 40px;
+}
+.go_skills > img {
+  background: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+#skills_section {
+  min-height: 100vh;
+  background-color: lightblue;
+}
 @media screen and (max-width: 992px) {
+  .go_skills {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+  }
   .first_routes {
     justify-content: center;
   }
