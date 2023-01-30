@@ -5,7 +5,6 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-
 nav {
   height: 60px;
   background-color: #33495f;
@@ -133,9 +132,7 @@ nav {
   border-radius: 50%;
   padding: 10px;
 }
-#skills_section {
-  height: 60vh;
-}
+
 footer {
   background: #1e242b;
   display: flex;
@@ -144,14 +141,12 @@ footer {
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 10px;
-  
 }
 footer > h1 {
   color: #fafafa;
   font-family: "Orbitron", sans-serif;
   letter-spacing: 4px;
   font-size: 24px;
- 
 }
 footer > p {
   color: #fafafa;
@@ -166,7 +161,52 @@ footer > p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+#skills_section > h1 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 50px;
+}
+#skills_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+.skills_containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+.skill {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  background: #53c0de9a;
+  padding: 20px 15px;
+  border-radius: 20px;
+  width: 300px;
+  transition: ease-in-out 0.5s;
+}
+.skill:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.skill > h2 {
+  color:  #33495f;
+}
+.skill > h2 > span {
+  font-weight: bold;
+}
 @media screen and (max-width: 992px) {
+  .skills_containers {
+    gap: 20px;
+  }
   .nav_links {
     margin-right: 10px;
     gap: 5px;
